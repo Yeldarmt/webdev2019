@@ -1,0 +1,78 @@
+function getReminder(){
+  console.log('Water the plants.');
+}
+
+function greetInSpanish(){
+  console.log('Buenas Tardes.');
+}
+
+function sayThanks(){
+  console.log('Thank you for your purchase! We appreciate your business.')
+}
+sayThanks();
+sayThanks();
+sayThanks();
+
+function makeShoppingList(item1='milk', item2='bread', item3='eggs'){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+
+function monitorCount(rows,columns){
+  return rows*columns
+}
+
+const numOfMonitors = monitorCount(5,4);
+console.log(numOfMonitors);
+
+function monitorCount(rows, columns) {
+  return rows * columns;
+}
+
+function costOfMonitors(rows, columns){
+  return monitorCount(rows,columns)*200;
+}
+const totalCost = costOfMonitors(5,4); 
+console.log(totalCost);
+
+const plantNeedsWater = function(day) {
+  if(day === 'Wednesday'){
+    return true;
+  } else {
+    return false;
+  }
+};
+
+plantNeedsWater('Tuesday');
+
+console.log(plantNeedsWater('Tuesday'));
+
+const plantNeedsWater = (day) => {
+  if (day === 'Wednesday') {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+const plantNeedsWater = day => 
+  day === 'Wednesday' ? true : false;
+
+  var satellite = 'The Moon';
+var galaxy = 'The Milky Way';
+var stars = 'North Star';
+
+function callMyNightSky(){
+  return 'Night Sky: ' + satellite+', '+stars+', and ' +galaxy;
+}
+
+console.log(callMyNightSky());
+
+function logVisibleLightWaves(){
+  const lightWaves='Moonlight';
+  console.log(lightWaves);
+}
+
+logVisibleLightWaves();
+console.log(lightWaves());

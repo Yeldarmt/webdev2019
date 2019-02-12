@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        <style>
+        body {
+            background-color: yellow;
+        }
+        p {
+            color: red;
+        }
+        h1 {
+            color: blue;
+        }
+            
+        </style>
+        
+        
+        
+    </head>
+    <body>
+        <img src="https://www.kasandbox.org/programming-images/space/star.png">
+        <h1>The <strong>coolest</strong> <em>creature</em></h1>
+        
+        <p>The <em></em> is awesome because <strong></strong>.</p>
+        
+    </body>
+</html>

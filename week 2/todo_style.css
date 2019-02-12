@@ -1,0 +1,86 @@
+#para {
+    color: gray;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.main {
+    margin-left: 20%;
+    width: 60%;
+}
+p {
+    background-color: rgb(241, 240, 234);
+}
+
+#task_id {    
+    width:80%;
+    height:30px;
+    margin-left: 60px;
+    padding-left: 20px;
+    border-radius: 15px solid gray;
+    font-size: 20px;
+}
+
+#button1 {
+    margin: 0px;
+    height: 35px;
+    width: 60px;
+    font-size: 20px;
+    margin-left: 25px;
+    background-color: #44b4e0;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+
+#button:hover {
+    background: white;
+    color: #24292d;
+    border: 1px solid #24292d;
+  }
+  
+  .task {
+    margin: 7px 10px;
+    height: 45px;
+    max-height: 100px;
+    background-color: rgb(241, 240, 234);
+    border-radius: 5px;
+  }
+  
+  .check {
+    float: left;
+    padding: 12px 8px;
+  }
+  
+  input[type="checkbox"] {
+    width: 21px; 
+    height: 21px; 
+  }
+  
+  .delete {
+    float: right;
+    padding: 10px;
+  }
+  
+  input[type="image"] {
+    width: 23px; 
+    height: 23px;
+  }
+  
+  input[type="image"]:hover {
+    width: 26px; 
+    height: 26px;
+  }
+  
+  .task p {
+    float: left;
+    padding-top: 10px;
+  }
