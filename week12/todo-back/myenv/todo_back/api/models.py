@@ -1,5 +1,7 @@
 from django.db import models
 
+# Create your models here.
+
 class TaskList(models.Model):
     name = models.CharField(max_length=200)
     def to_json(self):
@@ -8,8 +10,7 @@ class TaskList(models.Model):
             'name': self.name
         }
     def __str__(self):
-        return '{}: {}'.format(self.id, self.name)
-
+        return '{}:{}'.format(self.id, self.name)
 
 class Task(models.Model):
     name = models.CharField(max_length=200)
