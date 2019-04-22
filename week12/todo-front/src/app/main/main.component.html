@@ -7,11 +7,12 @@
 <h1>Tasklists</h1>
 <div class = "tasklist">
   <div *ngFor="let c of tasklists">
-    <span (click)="getTasks(c)">
+    <span>
         <input type="text" [(ngModel)]="c.name" />
       </span>
     <span style="color: red" (click)="deleteTaskList(c)"> Удалить</span>
     <span style="color: green" (click)="updateTaskList(c)"> Изменить</span>
+    <span style="color: blue" (click)="getTasks(c)"x> tasks</span>
   </div>
 </div>
 <br/>
